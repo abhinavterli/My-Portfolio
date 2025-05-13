@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY PORTFOLIO</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/52942d1db9.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="images/LOGO.png" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contacts</a></li>
+
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi I'm <span>Abhinav</span> <br>from Andhra Pradesh</h1>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col1">
+          <img src="images/user.jpg">
+        </div>
+        <div class="about-col2">
+          <h1 class="sub-title">About Me</h1>
+          <p> I am Terli Abhinav Naidu from Bobbili,Andhra Pradesh.I'm currently pursuing bachelor of technology in
+            Mechanical Engineering. From Indian Institute of Technology (Indian School of Mines) Dhanbad ,
+            IIT(ISM)DHANBAD. </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+          </div>
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>Technical Languages</span><br>C,Python,MYSQL</li>
+              <li><span>Web Technologies</span><br>HTML,CSS,JAVASCRIPT</li>
+              <li><span>Technologies</span><br>Git Hub</li>
+              <li><span>Developer Tools</span><br>VS code,dev c++,jupyter Notebook,MYSQL</li>
+
+
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="Projects">
+            <ul>
+              <li><span>Tic-Tac-Toe</span><br>Tic-Tac-Toe game developed using HTML,CSS,JAVASCRIPT</li>
+              <li><span>Rock Paper Scissor Game</span><br>Rock Paper Scissor Game developed using HTML,CSS,JAVASCRIPT
+              </li>
+              <li><span>Currency Convector</span><br>Currency Convector developed using HTML,CSS,JAVASCRIPT</li>
+
+
+
+
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>Indian Institute of Technology (Indian School of Mines) Dhanbad
+                  IIT(ISM)DHANBAD</span><br>Bachelor of Technology in Mechnaical Engineering , Dhanbad Jharkhand ,<br>
+                (Gpa:6.44 / 10.0) , 2023-current</li>
+              <li><span>Tirumala Junior college </span><br>Andhra Pradesh Board Of Intermediate Examination ,
+                vishakapatnam, (Marks:923/1000) , 2023</li>
+              <li><span>Narayana High School</span><br>Center Board Of Secondary Education , vishakapatnam ,
+                (Marks:423/500) , 2021</li>
+
+
+
+
+            </ul>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title"> My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>UI/UX Design</h2>
+          <p>I’m a UI/UX designer who creates intuitive, engaging, and user-focused interfaces for web and mobile
+            applications. I specialize in wireframes, prototypes, and visual design that enhances usability and drives
+            results.</p>
+          <a href="#">Learn More</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>Web Development</h2>
+          <p> build responsive, fast, and user-friendly websites tailored to your brand and goals. Whether it's a
+            landing page, business site, or full web application, I turn ideas into functional and modern digital
+            experiences. Technologies I use: HTML, CSS, JavaScript, React, Vue.js, Node.js, and more.</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title"> My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.png">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connect you to the talented people around the world.<br>Download it from Play Store.</p>
+            <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.png">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>The app connect you to the talented people around the world.<br>Download it from Play Store.</p>
+            <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.png">
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>The app connect you to the talented people around the world.<br>Download it from Play Store.</p>
+            <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">See more</a>
+
+    </div>
+  </div>
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p> <i class="fa-solid fa-envelope"></i> abhinavnaidut@gmail.com</p>
+          <p> <i class="fa-solid fa-phone"></i> 8106898047</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/abhinav.t.100/"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"> <i class="fa-brands fa-square-twitter"></i></a>
+            <a href="https://www.instagram.com/abhinav_terli/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/abhinav-naidu-terli-69298228a/"><i
+                class="fa-brands fa-linkedin"></i></a>
+
+          </div>
+          <a href="images/my resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Enter Your Name" required>
+            <input type="email" name="Email" placeholder="Enter Your email" required>
+            <textarea name="message" rows="6" placeholder="Your message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright © Abhinav.Made with <i class="fa-solid fa-heart"></i> by Abhinav</p>
+    </div>
+  </div>
+
+
+  <script src="first.js"></script>
+
+</body>
+
+</html>
